@@ -13,6 +13,7 @@ import Paper from '@mui/material/Paper';
 //import Link from '@mui/material/Link';
 import MenuIcon from '@mui/icons-material/Menu';
 import NotificationsIcon from '@mui/icons-material/Notifications';
+import GoogleMap from './GoogleMap';
 
 const mdTheme = createTheme();
 
@@ -70,7 +71,7 @@ const App = () => {
             <Grid container spacing={1}>
               <Grid item xs={12}>
                 <Paper sx={{ p: 2, display: 'flex', flexDirection: 'column' }}>
-                  Hello World
+                  <GoogleMap />
                 </Paper>
               </Grid>
             </Grid>
